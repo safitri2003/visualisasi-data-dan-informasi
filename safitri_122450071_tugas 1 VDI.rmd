@@ -1,0 +1,110 @@
+Nama: Safitri
+
+Nim: 122450071
+
+Kelas: RB
+
+**Data Engine Hyper**: Digunakan dalam Tableau untuk efisiensi dalam
+pembuatan, penyegaran, dan pengambilan kueri. Tableau 10 menggunakan
+mesin data Hyper untuk meningkatkan efisiensi sistem memori utama dengan
+memproses kueri dan data secara cepat. Hyper mengoptimalkan penyimpanan
+kolom dan pengindeksan, serta mendukung penggabungan lintas basis data
+untuk analisis yang lebih baik.Tableau 10 meningkatkan efisiensi sistem
+memori utama melalui pengembangan mesin data Hyper, yang dirancang untuk
+memproses kueri dan data dengan cepat. Hyper mengoptimalkan penyimpanan
+dan pengambilan data dengan menggunakan teknik kompresi kolom dan
+pengindeksan yang efisien, memungkinkan pemrosesan yang lebih cepat
+untuk pembuatan, penyegaran, dan ekstraksi kueri. Selain itu, Hyper
+mendukung penggabungan lintas basis data, yang meningkatkan kemampuan
+analisis dan visualisasi data dalam skala besar. Sistem visualisasi
+seperti Kyrix mendukung eksplorasi data dengan menyediakan antarmuka
+spesifikasi visualisasi deklaratif di front-end dan pemrosesan
+visualisasi yang skalabel di back-end.
+
+**Kyrix**: Merupakan sistem visualisasi data yang memungkinkan pengguna
+untuk memperbesar atau memperkecil detail data melalui kanvas yang
+memiliki beberapa lapisan. Kyrix menggunakan fungsi rendering dan
+penempatan untuk memetakan data ke objek visual dan mengoptimalkan
+pengambilan data. Kyrix memungkinkan pengguna untuk memperbesar dan
+memperkecil untuk melihat detail data yang berbeda melalui kanvas yang
+memiliki beberapa lapisan, serta menggunakan teknik pengambilan
+granularity dan pengindeksan untuk meningkatkan efisiensi pengambilan
+data. Selain itu, Kyrix memanfaatkan strategi prediksi untuk
+merekomendasikan data yang akan diambil berdasarkan pola interaksi
+pengguna, sehingga mempercepat proses eksplorasi data.
+
+**Interaktif Data Visualization**: Proses eksplorasi data visualisasi
+interaktif memungkinkan pengguna untuk terus menyempurnakan spesifikasi
+visualisasi hingga mencapai hasil yang diinginkan, dengan alat seperti
+Polaris dan Tableau yang mendukung penghalusan kueri langkah demi
+langkah.
+
+**Penyimpanan Kolom vs. Penyimpanan Baris**: Penyimpanan kolom lebih
+efisien dalam aplikasi OLAP karena memungkinkan akses cepat ke kolom
+tertentu, kompresi yang lebih baik, dan pemrosesan agregasi yang lebih
+cepat dibandingkan dengan penyimpanan baris. Keuntungan dari penggunaan
+penyimpanan kolom dibandingkan penyimpanan baris dalam aplikasi OLAP
+termasuk peningkatan kinerja dalam pemrosesan kueri, karena pengguna
+biasanya hanya tertarik pada beberapa kolom tertentu. Penyimpanan kolom
+memungkinkan kompresi yang lebih efisien dan akses data yang lebih
+cepat, karena data yang relevan dapat diambil tanpa memerlukan
+pemrosesan seluruh baris. Selain itu, penyimpanan kolom mendukung
+agregasi dan analisis data yang lebih cepat, yang sangat penting untuk
+aplikasi OLAP yang memerlukan analisis data yang kompleks.
+
+**Indeks**: Indeks meningkatkan kinerja pencarian dan visualisasi data
+dengan mengurangi jumlah catatan yang perlu diperiksa, memungkinkan
+akses yang lebih cepat ke informasi relevan, dan mendukung pemfilteran
+kondisi secara berkelanjutan. Indeks berperan penting dalam meningkatkan
+kinerja pencarian dan visualisasi data dengan mengurangi jumlah catatan
+atau baris yang perlu diperiksa saat melakukan kueri. Dengan membangun
+struktur data yang terorganisir, indeks memungkinkan akses yang lebih
+cepat ke informasi yang relevan, sehingga mempercepat waktu respons
+kueri. Selain itu, indeks juga mendukung pemfilteran kondisi secara
+berkelanjutan, yang meningkatkan efisiensi visualisasi data dengan
+memungkinkan pengguna untuk menjelajahi dan menganalisis data dengan
+lebih cepat.
+
+Tantangan dalam visualisasi data ketika volume data meningkat secara
+eksponensial meliputi kesulitan dalam memproses dan menyimpan data dalam
+waktu nyata, yang dapat mengakibatkan keterlambatan dalam respons
+visualisasi. Selain itu, kompleksitas kueri yang meningkat dapat membuat
+sulit untuk menghasilkan visualisasi yang akurat dan informatif, serta
+meningkatkan kebutuhan akan teknik kompresi dan pengindeksan yang
+efisien. Terakhir, pengguna mungkin mengalami kesulitan dalam memahami
+dan menafsirkan visualisasi yang dihasilkan dari dataset yang sangat
+besar, yang dapat mengurangi efektivitas analisis data.
+
+**TDE**: Mesin data untuk visualisasi di Tableau, mengoptimalkan
+penyimpanan kolom dan kompresi.
+
+**Deteksi Bias**: Penting untuk mendeteksi visualisasi yang bias,
+termasuk pembersihan data yang sesuai dengan tugas.
+
+**Rekomendasi Visualisasi**: Sistem yang membantu pengguna memilih
+visualisasi yang tepat berdasarkan data dan konteks.
+
+**Benchmarking**: Pengembangan tolok ukur untuk kinerja visualisasi,
+seperti VizNet dengan 31 juta dataset.
+
+Fokus dalam pengembangan tolok ukur untuk sistem rekomendasi visualisasi
+adalah untuk mengevaluasi efektivitas dan efisiensi sistem dalam
+memberikan rekomendasi visualisasi yang relevan dan informatif kepada
+pengguna. Ini mencakup pengukuran kinerja sistem dalam hal kecepatan
+respons, akurasi rekomendasi, dan kepuasan pengguna terhadap visualisasi
+yang dihasilkan. Selain itu, tolok ukur juga harus mempertimbangkan
+berbagai aspek seperti kompleksitas data, variasi jenis visualisasi, dan
+kemampuan sistem untuk beradaptasi dengan kebutuhan pengguna yang
+berubah.
+
+Visualisasi data yang mendekati (approximate data visualization) adalah
+teknik yang menyediakan representasi visual dari data dengan tingkat
+akurasi yang lebih rendah, tetapi dengan kecepatan yang lebih tinggi,
+terutama ketika berhadapan dengan dataset besar dan kompleks. Cara
+kerjanya melibatkan penggunaan algoritma yang mengurangi jumlah data
+yang diproses atau disajikan, seperti sampling, agregasi, atau
+pengurangan dimensi, untuk menghasilkan visualisasi yang cukup
+informatif tanpa memerlukan pemrosesan data yang intensif. Pendekatan
+ini memungkinkan pengguna untuk mendapatkan wawasan cepat dari data
+besar tanpa harus menunggu waktu pemrosesan yang lama untuk
+visualisasi yang tepat.
